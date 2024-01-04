@@ -43,9 +43,8 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 </p>
 
 <table> 
-    SQL Code Configuration (Raw code used and Prelimary EDA)
+    SQL Code Configuration
     <tr>
-        1
     <td> 
         SQL Code: Pull Request
     </td>
