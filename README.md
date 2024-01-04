@@ -1,9 +1,4 @@
 <img src="chic1.jpeg" alt="Chicago crime">
-
-<head>
-    <!-- Other head elements -->
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
     <header>
         <h1> Chicago Crime
