@@ -54,6 +54,7 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
         SQL Code: Exploratory questions about the data <a href="https://github.com/dsrichard97/chicagosql"> Exploratory analysis</a>
     </td>
     </tr>
+    
 Click on the table to look at SQL code used to pull from Query or to find out more information about intial data cleaning. :) 
     <!-- Include any code snippets if necessary -->
 </div>
