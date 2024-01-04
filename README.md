@@ -1,8 +1,3 @@
-<head>
-    <!-- Other head elements -->
-    <link rel="stylesheet" href="style.css">
-</head>
-
 <img src="chic1.jpeg" alt="Chicago crime">
 <body>
     <header>
