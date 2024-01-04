@@ -4,6 +4,8 @@
         <h1> Chicago Crime
 </h1>
     </header>
+<body style="background-color: #f0f0f0;">
+
 
 <div class="section">
     <h2>Introduction</h2>
