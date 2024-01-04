@@ -48,11 +48,6 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
         SQL Code: <a href="https://github.com/dsrichard97/chicagosql"> Pull Request raw code</a>
     </td>
     </tr>
-    <tr>
-    <td> 
-        SQL Code: <a href="https://github.com/dsrichard97/chicagosql"> Exploratory analysis</a>
-    </td>
-    </tr>
     </table> 
 </br>
 
