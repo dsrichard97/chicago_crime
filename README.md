@@ -34,8 +34,10 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
     <p>Querying massive datasets can be time consuming and expensive without the right hardware and infrastructure. Google BigQuery solves this problem by enabling super-fast, SQL queries against append-mostly tables, using the processing power of Google's infrastructure.
 <br>
 - <a href="https://cloud.google.com/python/docs/reference/automl/latest"> Client Library Documentation</a>
+</br>
 <br>
 - <a href="https://cloud.google.com/bigquery/docs/reference/rest"> Product Documentation </a>
+</br>
 </p>
 
 <table> 
