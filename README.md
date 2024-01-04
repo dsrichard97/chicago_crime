@@ -56,10 +56,8 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 </center>
 Quick overview of SQL alias list.
     
-    <!-- Include any code snippets if necessary -->
-    SELECT *
-FROM `bigquery-public-data.chicago_crime.crime` 
-WHERE year >= EXTRACT(YEAR FROM CURRENT_DATE()) - 5;
+    <!-- Gets data from the last 5 years -->
+    SELECT * FROM `bigquery-public-data.chicago_crime.crime` WHERE year >= EXTRACT(YEAR FROM CURRENT_DATE()) - 5;
 </div>
 
 <div class="section" id="Usage">
