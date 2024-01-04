@@ -36,7 +36,11 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 
 <div class="section" id="Installation">
     <h2>Installation and Setup</h2>
-    <p>Instructions for setting up your project...</p>
+    <p>Querying massive datasets can be time consuming and expensive without the right hardware and infrastructure. Google BigQuery solves this problem by enabling super-fast, SQL queries against append-mostly tables, using the processing power of Google's infrastructure.
+
+- Client Library Documentation
+- Product Documentation
+</p>
     <!-- Include any code snippets if necessary -->
 </div>
 
