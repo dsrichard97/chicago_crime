@@ -61,8 +61,7 @@ Sets off each row in a table
 <td> </td>
 Sets off each cell in a row
 <th> </th>
-Sets off the table header (a normal cell with bold,
-centered text)
+Click on the table to look at SQL code used to pull from Query. :) 
     <!-- Include any code snippets if necessary -->
 </div>
 
