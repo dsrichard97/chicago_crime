@@ -51,17 +51,10 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
     </tr>
     <tr>
     <td> 
-        SQL Code: Exploratory questions about the data
+        SQL Code: Exploratory questions about the data <a href="https://github.com/dsrichard97/chicagosql"> Exploratory analysis</a>
     </td>
     </tr>
-</table>
-Creates a table
-<tr> </tr>
-Sets off each row in a table
-<td> </td>
-Sets off each cell in a row
-<th> </th>
-Click on the table to look at SQL code used to pull from Query. :) 
+Click on the table to look at SQL code used to pull from Query or to find out more information about intial data cleaning. :) 
     <!-- Include any code snippets if necessary -->
 </div>
 
