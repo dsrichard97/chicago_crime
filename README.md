@@ -59,8 +59,8 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 <center>
     <IMG SRC="gif1.gif">
 </center>
+Quick overview of SQL alias list.
     
-Click on the table to look at SQL code used to pull from Query or to find out more information about intial data cleaning. :) 
     <!-- Include any code snippets if necessary -->
 </div>
 
