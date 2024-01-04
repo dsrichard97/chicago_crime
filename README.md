@@ -43,14 +43,14 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 </p>
 
 <table> 
-    Creates a table
+    SQL Code Configuration (Raw code used and Prelimary EDA)
     <tr>
         1
     <td> 
-        2
+        SQL Code: Pull Request
     </td>
     <td> 
-        3
+        SQL Code: Exploratory questions about the data
     </td>
   </tr>
 </table>
