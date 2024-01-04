@@ -50,7 +50,6 @@
     <!-- Include code snippets and screenshots -->
 </div>
 
-
 <div class="section">
     <h2>Visuals</h2>
     <p>Showcase your project with images, GIFs, or videos...</p>
