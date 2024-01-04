@@ -1,4 +1,4 @@
-<img src="chic1.jpg" alt="Italian Trulli">
+<img src="chic1.jpeg" alt="Chicago crime">
 
 <head>
     <!-- Other head elements -->
