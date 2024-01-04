@@ -41,6 +41,16 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 - <a href="https://cloud.google.com/python/docs/reference/automl/latest"> Client Library Documentation</a>
 - <a href="https://cloud.google.com/bigquery/docs/reference/rest"> Product Documentation </a>
 </p>
+
+<table> </table>
+Creates a table
+<tr> </tr>
+Sets off each row in a table
+<td> </td>
+Sets off each cell in a row
+<th> </th>
+Sets off the table header (a normal cell with bold,
+centered text)
     <!-- Include any code snippets if necessary -->
 </div>
 
