@@ -1,3 +1,5 @@
+<img src="chic1.jpg" alt="Italian Trulli">
+
 <head>
     <!-- Other head elements -->
     <link rel="stylesheet" href="style.css">
