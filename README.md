@@ -46,11 +46,13 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
     Creates a table
     <tr>
         1
-    </tr>
     <td> 
         2
     </td>
-
+    <td> 
+        3
+    </td>
+  </tr>
 </table>
 Creates a table
 <tr> </tr>
