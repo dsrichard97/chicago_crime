@@ -49,10 +49,12 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
     <td> 
         SQL Code: Pull Request
     </td>
+    </tr>
+    <tr>
     <td> 
         SQL Code: Exploratory questions about the data
     </td>
-  </tr>
+    </tr>
 </table>
 Creates a table
 <tr> </tr>
