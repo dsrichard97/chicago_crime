@@ -79,6 +79,7 @@ Quick overview of SQL alias list.
 
 <div class="section">
     <h2>Visuals</h2>
+    <img src="tab1.jpeg" alt="Chicago crime">
     <p>Check out my Tableau dashboard: </p>
 </div>
 
