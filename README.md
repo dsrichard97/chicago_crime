@@ -75,7 +75,8 @@ Quick overview of SQL alias list.
 <div class="section" id="Analysis">
     <h2>Analysis</h2>
         <IMG SRC="crime.gif">
-    <p> Crime has been up in the last couple of years. <a href="https://rpubs.com/diazrichard98/1135536">Rmarkdownfile</a><br> </p>
+    <p>The report titled 'Chicago Crime Data Reporting,' dated January 5, 2024, offers a thorough exploratory data analysis (EDA) and a detailed temporal evaluation of crime statistics in Chicago for the years 2022-2023. Executed using R and various libraries including readr, lubridate, dplyr, ggplot2, leaflet, leaflet.extras, and cluster, the analysis covers data preparation, identifying predominant crime types through bar plots, and a block-level scrutiny to pinpoint regions with heightened specific criminal activities. The study further investigates time-related trends in these areas, revealing notable shifts in crime frequencies. A key highlight of this analysis is the fusion of geospatial and temporal visualizations with interactive maps, augmented by machine learning techniques such as K-means clustering to delineate crime hotspots. This all-encompassing method not only sheds light on crime concentration and critical zones but also provides valuable insights for decision-making by policymakers and law enforcement bodies. This analysis serves as a powerful instrument in comprehending and tackling the nuances of urban crime. 
+        - <a href="https://rpubs.com/diazrichard98/1135536">Rmarkdownfile</a><br> </p>
     <!-- Include code snippets and screenshots -->
 </div>
 
