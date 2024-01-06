@@ -1,13 +1,9 @@
 <html>
 <head>
-    <!-- Add relevant meta tags and link external CSS if needed -->
-    <title>Chicago Crime Data Presentation</title>
+    <title>Chicago Crime</title>
 </head>
 <body style="background-color: #f0f0f0;">
     <img src="chic1.jpeg" alt="Chicago crime" />
-    <header>
-        <h1>Chicago Crime</h1>
-    </header>
 
     <div class="section">
         <h2>Introduction</h2>
