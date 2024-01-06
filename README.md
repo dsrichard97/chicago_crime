@@ -88,9 +88,15 @@ Quick overview of SQL alias list.
 <div class="section">
     <h2>Additional Resources</h2>
     <p>
+        <br>
         - <a href="https://popcenter.asu.edu/sites/default/files/learning/60steps/index3f62.html?stepNum=25"> Crime Analysis in 60 steps</a>
+        </br>
+        <br>
         - <a href="https://projects.itrcweb.org/gsmc-1/Content/GW%20Stats/5%20Methods%20in%20indiv%20Topics/5%208%20Temporal%20Analysis.htm"> Motivation </a>
+        </br>
+        <br>
         - <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/time/temporal-data.htm"> ArcGIS Pro Time Series Data Store Values</a>
+        </br>
     </p>
 </div>
 
