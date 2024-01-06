@@ -72,15 +72,13 @@ Quick overview of SQL alias list.
 
 <div class="section" id="Analysis">
     <h2>Analysis</h2>
+        <IMG SRC="crime. gif">
     <p> Crime has been up in the last couple of years. The R markdown provides some quick insights on exploratory information. </p>
     <!-- Include code snippets and screenshots -->
 </div>
 
 <div class="section">
     <h2>Visuals</h2>
-    <center>
-        <IMG SRC="crime. gif">
-    </center>
     <p>Check out my Tableau dashboard: </p>
 </div>
 
