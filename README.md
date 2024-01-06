@@ -72,7 +72,7 @@ Quick overview of SQL alias list.
 
 <div class="section" id="Analysis">
     <h2>Analysis</h2>
-        <IMG SRC="crime. gif">
+        <IMG SRC="crime.gif">
     <p> Crime has been up in the last couple of years. The R markdown provides some quick insights on exploratory information. </p>
     <!-- Include code snippets and screenshots -->
 </div>
