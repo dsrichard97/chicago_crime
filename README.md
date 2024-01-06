@@ -62,19 +62,17 @@ Quick overview of SQL alias list.
 
 <div class="section" id="Usage">
     <h2>Usage</h2>
-    <p>Detailed examples of how to use your project...</p>
-    <!-- Include code snippets and screenshots -->
+    <p> The usuage is for law enforcement people or people who intrested in crime data. The intention of this project is rather to raise awareness of crimes and hotspots.</p>
 </div>
 
 <div class="section" id="Dataset">
     <h2>Dataset</h2>
-    <p>Detailed examples of how to use your project...</p>
-    <!-- Include code snippets and screenshots -->
+    <p> If you are intrested in looking at the sql pull look at the previous. However, I highlighted most of my energy and portion into visuals to show the rise of crime from 2019-2023. The tableau link includes a high level overview of the data. For more programmers, I have attached a link to python file and r code that display a temporal analysis. Crime rates have been up and the goal is to raise awareness of how important governement officials are. This specifically highlights hotspots. </p>
 </div>
 
 <div class="section" id="Analysis">
     <h2>Analysis</h2>
-    <p>Detailed examples of how to use your project...</p>
+    <p> Crime has been up in the last couple of years. The R markdown provides some quick insights on exploratory information. </p>
     <!-- Include code snippets and screenshots -->
 </div>
 
