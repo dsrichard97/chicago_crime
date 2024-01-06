@@ -27,6 +27,7 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
         <li><a href="#Usage">Usage</a></li>
         <li><a href="#Dataset">Dataset</a></li>
         <li><a href="#Analysis">Analysis</a></li>
+        <li><a href="#Visuals">Visuals</a></li>
         <!-- Add other sections as needed -->
     </ul>
 </div>
