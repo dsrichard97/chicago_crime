@@ -28,6 +28,7 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
         <li><a href="#Dataset">Dataset</a></li>
         <li><a href="#Analysis">Analysis</a></li>
         <li><a href="#Visuals">Visuals</a></li>
+        <li><a href="#Additional Resources">Additional Resources</a></li>
         <!-- Add other sections as needed -->
     </ul>
 </div>
@@ -82,6 +83,15 @@ Quick overview of SQL alias list.
     <h2>Visuals</h2>
     <img src="tab1.png" alt="Chicago crime">
     <p>Check out my Tableau dashboard: https://public.tableau.com/shared/2ZZDXFHQX?:display_count=n&:origin=viz_share_link  </p>
+    
+<div class="section">
+        <h2>Additional Resources</h2>
+        <p>
+            <a href="https://popcenter.asu.edu/sites/default/files/learning/60steps/index3f62.html?stepNum=25">Crime Analysis in 60 steps</a><br>
+            <a href="https://projects.itrcweb.org/gsmc-1/Content/GW%20Stats/5%20Methods%20in%20indiv%20Topics/5%208%20Temporal%20Analysis.htm">Motivation</a><br>
+            <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/time/temporal-data.htm">ArcGIS Pro Time Series Data Store Values</a>
+        </p>
+    </div>
 
 </div>
 
