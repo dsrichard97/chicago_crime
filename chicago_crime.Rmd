@@ -1,0 +1,251 @@
+---
+title: "Chicagocrime_rstudio"
+output:
+  html_document: default
+  pdf_document: default
+date: "2024-01-05"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+
+
+
+## Chicago Crime EDA
+
+```{r}
+library(readr)
+library(lubridate)
+library(dplyr)
+library(ggplot2)
+library(readr)
+crimedf <- read_csv("~/Desktop/crimedataquery.csv")
+head(crimedataquery,5)
+
+# Convert 'date' column to date-time format
+crimedf$date <- as.POSIXct(crimedataquery$date, format="%Y-%m-%d %H:%M:%S", tz="UTC")
+
+# Filtering for the years 2022 and 2023
+crimedf_filtered <- filter(crimedf, year(date) %in% c(2022, 2023))
+```
+
+
+## Exploratory Questions 
+1. What type of crimes that have mostly occurred this last year 2022-2023? 
+2. What are the top 5 crimes that occurred in 2023? 
+3. Which block has the highest crime rate by beatings? 
+
+
+
+### What type of crimes that have mostly occurred this last year 2022-2023? 
+```{r}
+crime_count_2022_2023 <- crimedf_filtered %>%
+                        group_by(primary_type) %>%
+                        summarize(count = n()) %>%
+                        arrange(desc(count))
+
+# Optionally, create a bar plot
+ggplot(crime_count_2022_2023, aes(x=reorder(primary_type, count), y=count)) +
+  geom_bar(stat="identity") +
+  coord_flip() +
+  labs(title="Crime Types in Chicago (2022-2023)", x="Crime Type", y="Count")
+
+```
+
+
+### What are the top 5 crimes that occurred in 2022-2023? 
+From the previous, we can note that 
+- deceptive practice
+- battery
+- other offense
+- narcotics
+- robbery
+
+where the highest top 5 crimes comitted in 2022-2023. In other words, fradualent crimes are on the rise. These type of likley to miselead a consumer from providing false information.
+
+
+### Which block has the highest crime rate by beatings? 
+```{r}
+beating_crimes <- filter(crimedf_filtered, primary_type == "DECEPTIVE PRACTICE")
+
+beating_crime_by_block <- beating_crimes %>%
+  group_by(block) %>%
+  summarize(count = n()) %>%
+  arrange(desc(count)) %>%
+  head(1)  # Assuming you want the top block
+
+# Print the result
+print(beating_crime_by_block)
+
+```
+
+This block has the highest deceptive practice in chicago. If we were intrested in looking at the second highest crime then we would want to look at the block with the highest 'battery' crime.
+
+
+```{r}
+battery_crimes <- filter(crimedf_filtered, primary_type == "BATTERY")
+
+battery_crime_by_block <- battery_crimes %>%
+  group_by(block) %>%
+  summarize(count = n()) %>%
+  arrange(desc(count)) %>%
+  head(1)  # Assuming you want the top block
+
+# Print the result
+print(battery_crime_by_block)
+
+```
+This block has the highest battery practice in chicago. These crimes were committed in 2022-2023.
+
+
+## Temporal Analysis near the highest block? 
+For a temporal analysis, particularly focusing on beatings:
+
+* Use time series analysis to identify trends, patterns, and seasonal variations in beatings.
+For this practice, we will focus on the two cases  where we will break down by our paramters: 
+      
+  YEAR COMITTED CRIME - BLOCK - EVOLUTION OF TIME AROUND THAT AREA - TYPE OF CRIME
+  
+I.    2022-2023 - 001XX N STATE ST - we want to go back at least 3 years - DECEPTIVE PRACTICE
+II.   2022-2023 - 006XX S CENTRAL AVE - we want to go back at least 3 years - BATTERY
+
+
+## Previous Trends
+
+```{r}
+crimedf$date <- as.POSIXct(crimedf$date, format="%Y-%m-%d %H:%M:%S", tz="UTC")
+
+# Case I: DECEPTIVE PRACTICE at 001XX N STATE ST
+deceptive_practice_data <- filter(crimedf, primary_type == "DECEPTIVE PRACTICE",
+                                  block == "001XX N STATE ST", year(date) >= 2019)
+
+# Aggregate by month or year
+monthly_deceptive <- deceptive_practice_data %>%
+  mutate(month = floor_date(date, "month")) %>%
+  group_by(month) %>%
+  summarize(count = n())
+
+# Plotting
+ggplot(monthly_deceptive, aes(x = month, y = count)) +
+  geom_line() +
+  labs(title = "Monthly Trend of Deceptive Practice at 001XX N STATE ST (2019-2023)",
+       x = "Month", y = "Count of Crimes")
+```
+
+There has been a sudden spike in 2023.
+
+
+```{r}
+# Case II: BATTERY at 006XX S CENTRAL AVE
+battery_data <- filter(crimedf, primary_type == "BATTERY",
+                       block == "006XX S CENTRAL AVE", year(date) >= 2019)
+
+# Aggregate by month or year
+monthly_battery <- battery_data %>%
+  mutate(month = floor_date(date, "month")) %>%
+  group_by(month) %>%
+  summarize(count = n())
+
+# Plotting
+ggplot(monthly_battery, aes(x = month, y = count)) +
+  geom_line() +
+  labs(title = "Monthly Trend of Battery at 006XX S CENTRAL AVE (2019-2023)",
+       x = "Month", y = "Count of Crimes")
+```
+
+Ther was sudden spikes towards the end of 2021 and early 2022.
+
+## Temporal Analysis
+```{r}
+library(readr)
+library(dplyr)
+library(lubridate)
+library(leaflet)
+library(leaflet.extras)
+library(cluster)
+
+library(readr)
+library(dplyr)
+library(lubridate)
+library(leaflet)
+library(leaflet.extras)
+library(cluster)
+
+# Load and preprocess data
+crimedf <- read_csv("~/Desktop/crimedataquery.csv")
+crimedf$date <- as.POSIXct(crimedf$date, format="%Y-%m-%d %H:%M:%OS", tz="UTC")
+crimedf_filtered <- filter(crimedf, year(date) >= 2019)
+
+# Clean data: Remove rows with NA/NaN/Inf in latitude or longitude
+crimedf_filtered <- crimedf_filtered %>% 
+  filter(!is.na(latitude) & !is.na(longitude) & 
+         !is.infinite(latitude) & !is.infinite(longitude))
+
+# K-means clustering
+set.seed(123) # For reproducibility
+coords <- crimedf_filtered %>% select(latitude, longitude)
+kmeans_result <- kmeans(coords, centers = 5) # Adjust 'centers' as needed
+
+# Add cluster information to the data
+crimedf_filtered$cluster <- kmeans_result$cluster
+
+# Create a leaflet map
+map <- leaflet(crimedf_filtered) %>% addTiles()
+
+# Add clustered points to the map
+map <- map %>% addCircleMarkers(
+  lat = ~latitude, 
+  lng = ~longitude, 
+  color = ~factor(cluster), 
+  popup = ~paste("Cluster:", cluster)
+)
+
+# Add a heatmap layer
+map <- map %>% addHeatmap(
+    lat = ~latitude, 
+    lng = ~longitude, 
+    intensity = ~1, 
+    blur = 20, 
+    max = 0.05, 
+    radius = 15
+)
+
+# Render the map
+map
+
+
+
+
+
+```
+
+
+- the darker the zone the more of hotspot with crime
+- the lighter shaes indicates less hotspots with crime
+
+
+
+Here is a visualization of our temporal space in chicago. It is intresting to see how k-means is used to create our clustering to better concentrate on specific hot zone crimes. Clustering was made on a basis of 5 to learn the data and around the area structure the coloring with the amount of arrests.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
