@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <!-- Add relevant meta tags and link external CSS if needed -->
