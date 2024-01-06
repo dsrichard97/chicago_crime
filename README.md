@@ -39,9 +39,9 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 - <a href="https://cloud.google.com/python/docs/reference/automl/latest"> Client Library Documentation</a>
 
     
-<br>
+
 - <a href="https://cloud.google.com/bigquery/docs/reference/rest"> Product Documentation </a>
-</br>
+
 
 <br>
     <table> 
