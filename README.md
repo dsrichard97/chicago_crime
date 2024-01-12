@@ -45,7 +45,6 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 
 <br>
     <table> 
-    SQL Code Configuration
     <tr>
     <td> 
         SQL Code: <a href="https://github.com/dsrichard97/chicagosql"> Pull Request raw code</a>
@@ -56,8 +55,11 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 
 <center>
     <IMG SRC="gif1.gif">
-</center>
-Quick overview of SQL alias list.
+    <div class="container">
+  <img src="gif1.gif" alt="Snow" style="width:100%;">
+  <div class="bottom-left">Quick overview of SQL alias list</div>
+</div>
+<center>
     
     <!-- Gets data from the last 5 years -->
     SELECT * FROM `bigquery-public-data.chicago_crime.crime` WHERE year >= EXTRACT(YEAR FROM CURRENT_DATE()) - 5;
