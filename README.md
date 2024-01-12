@@ -78,12 +78,12 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
     <h2>Analysis</h2>
         <IMG SRC="crime.gif">
     <p>The report, 'Chicago Crime Data Reporting,' dated January 5, 2024, presents an in-depth exploratory data analysis (EDA) and a meticulous temporal assessment of crime statistics in Chicago for the years 2022-2023. Conducted using R and various libraries such as readr, lubridate, dplyr, ggplot2, leaflet, leaflet.extras, and cluster, the analysis encompasses data preparation, the identification of predominant crime types via bar plots, and block-level examination to identify areas with increased specific criminal activities. The study further delves into time-related trends in these regions, uncovering significant shifts in crime frequencies. A notable aspect of this analysis is the integration of geospatial and temporal visualizations with interactive maps, enhanced by machine learning techniques like <b>K-means clustering</b> to outline <b>crime hotspots</b>. This comprehensive methodology not only illuminates areas of concentrated crime and critical zones but also offers essential insights for decision-making by policymakers and law enforcement agencies. Overall, this analysis stands as a potent tool in understanding and addressing the complexities of urban crime.</p>
+</div>
 
     <ul>
     <li><a href="https://rpubs.com/diazrichard98/1135536">Rmarkdownfile</a><br></li>
     </ul>
 
-</div>
 
 <div class="section">
     <h2>Visuals</h2>
