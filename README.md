@@ -81,7 +81,7 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 </div>
 
     <ul>
-    <li><a href="https://rpubs.com/diazrichard98/1135536">Rmarkdownfile</a><br></li>
+    <li><a href="https://rpubs.com/diazrichard98/1135536">Rmarkdownfile</a></li>
     </ul>
 
 
