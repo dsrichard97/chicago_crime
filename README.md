@@ -54,7 +54,6 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 </br>
 
 <center>
-    <IMG SRC="gif1.gif">
     <div class="container">
   <img src="gif1.gif" alt="Snow" style="width:100%;">
   <div class="bottom-left">Quick overview of SQL alias list</div>
