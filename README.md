@@ -71,7 +71,7 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 
 <div class="section" id="Dataset">
     <h2>Dataset</h2>
-    <p> If you are intrested in looking at the sql pull look at the previous. However, I highlighted most of my energy and portion into visuals to show the rise of crime from 2019-2023. The tableau link includes a high level overview of the data. For more programmers, I have attached a link to python file and r code that display a temporal analysis. Crime rates have been up and the goal is to raise awareness of how important governement officials are. This specifically highlights hotspots. For a quick EXCEL snapshot: <a href="https://github.com/dsrichard97/chicago_crime/blob/main/crimedataquery.xls">click here</a>. </p>
+    <p> This project is designed for use by law enforcement professionals and individuals with an interest in crime data. Its primary objective is to increase awareness of criminal activities and to pinpoint crime hotspots. By providing detailed insights into crime trends and locations, the project aims to support proactive measures and informed decision-making in crime prevention and safety enhancement. This specifically highlights hotspots. For a quick *EXCEL* snapshot: <a href="https://github.com/dsrichard97/chicago_crime/blob/main/crimedataquery.xls">click here</a>. </p>
 </div>
 
 <div class="section" id="Analysis">
