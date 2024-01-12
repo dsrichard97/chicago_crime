@@ -83,7 +83,7 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 <div class="section">
     <h2>Visuals</h2>
     <img src="tab1.png" alt="Chicago crime">
-    <p>Check out my Tableau dashboard: https://public.tableau.com/shared/2ZZDXFHQX?:display_count=n&:origin=viz_share_link . For a high level overview - click on the PowerPoint below in the resources section. </p>
+    <p>Check out my <b>Tableau dashboard</b>: https://public.tableau.com/shared/2ZZDXFHQX?:display_count=n&:origin=viz_share_link . For a high level overview - click on the PowerPoint below in the resources section. </p>
     
 <div class="section">
         <h2>Resources</h2>
