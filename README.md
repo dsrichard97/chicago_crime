@@ -40,7 +40,7 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 
     
 
-- <a href="https://cloud.google.com/bigquery/docs/reference/rest"> Product Documentation </a>
+<li><a href="https://cloud.google.com/bigquery/docs/reference/rest"> Product Documentation </a></li>
 
 
 <br>
