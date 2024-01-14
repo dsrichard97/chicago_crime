@@ -43,15 +43,13 @@ This presentation aims to provide a data-driven narrative on public safety in Ch
 <li><a href="https://cloud.google.com/bigquery/docs/reference/rest"> Product Documentation </a></li>
 
 
-<br>
     <table> 
     <tr>
     <td> 
-        SQL Code: <a href="https://github.com/dsrichard97/chicagosql"> Pull Request raw code</a>
+        <b>SQL Code</b>: <a href="https://github.com/dsrichard97/chicagosql"> Pull Request raw code</a>
     </td>
     </tr>
     </table> 
-</br>
 
 <center>
     <div class="container">
