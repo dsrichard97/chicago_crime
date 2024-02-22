@@ -38,19 +38,10 @@ Join us on this insightful journey, where data not only tells the story of crime
     <p>Querying massive datasets can be time consuming and expensive without the right hardware and infrastructure. Google BigQuery solves this problem by enabling super-fast, SQL queries against append-mostly tables, using the processing power of Google's infrastructure.
 
 <li><a href="https://cloud.google.com/python/docs/reference/automl/latest"> Client Library Documentation</a></li>
-
-    
-
 <li><a href="https://cloud.google.com/bigquery/docs/reference/rest"> Product Documentation </a></li>
 
 
-    <table border="1" style="border-collapse: collapse; width: 100%;">
-    <tr>
-        <td style="padding: 10px;">
-            <b>SQL Code:</b> <a href="https://github.com/dsrichard97/chicagosql" target="_blank"> Pull Request raw code</a>
-        </td>
-    </tr>
-</table>
+   
 
 
 <center>
