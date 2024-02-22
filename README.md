@@ -44,13 +44,14 @@ Join us on this insightful journey, where data not only tells the story of crime
 <li><a href="https://cloud.google.com/bigquery/docs/reference/rest"> Product Documentation </a></li>
 
 
-    <table> 
+    <table border="1" style="border-collapse: collapse; width: 100%;">
     <tr>
-    <td> 
-        <b>SQL Code</b>: <a href="https://github.com/dsrichard97/chicagosql"> Pull Request raw code</a>
-    </td>
+        <td style="padding: 10px;">
+            <b>SQL Code:</b> <a href="https://github.com/dsrichard97/chicagosql" target="_blank"> Pull Request raw code</a>
+        </td>
     </tr>
-    </table> 
+</table>
+
 
 <center>
     <div class="container">
