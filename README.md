@@ -50,6 +50,39 @@ The data contains incidents to their blocks and crimes. This exploration is not 
   </section>
 </P>
 
+<p>
+  <section id="data-source">
+    <h2>Data Source</h2>
+     <p> This project is designed for use by law enforcement professionals and individuals with an interest in crime data. Its primary objective is to increase awareness of criminal activities and to pinpoint crime hotspots. By providing detailed insights into crime trends and locations, the project aims to support proactive measures and informed decision-making in crime prevention and safety enhancement. This specifically highlights hotspots. For a quick <b>EXCEL</b> snapshot: <a href="https://github.com/dsrichard97/chicago_crime/blob/main/crimedataquery.xls">click here</a>. </p>
+  </section>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="section" id="Installation">
     <h2>Installation and Setup</h2>
