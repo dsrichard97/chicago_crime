@@ -62,13 +62,6 @@ The data contains incidents to their blocks and crimes. This exploration is not 
 </table>
 
 
-<li><a href="https://cloud.google.com/python/docs/reference/automl/latest"> Client Library Documentation</a></li>
-<li><a href="https://cloud.google.com/bigquery/docs/reference/rest"> Product Documentation </a></li>
-
-
-   
-
-
 <center>
     <div class="container">
   <img src="gif1.gif" alt="Snow" style="width:100%;">
