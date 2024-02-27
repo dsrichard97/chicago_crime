@@ -72,40 +72,30 @@ The data contains incidents to their blocks and crimes. This exploration is not 
 </p>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="section" id="Installation">
-    <h2>Installation and Setup</h2>
-    <p>Querying massive datasets can be time consuming and expensive without the right hardware and infrastructure. Google BigQuery solves this problem by enabling super-fast, SQL queries against append-mostly tables, using the processing power of Google's infrastructure.
-
-<table border="1" style="border-collapse: collapse; width: 100%;">
-    <tr>
-        <td style="padding: 10px;">
+<p>
+  <section id="quick-glance">
+    <h2>Quick Glance at the Results</h2>
+       <td style="padding: 10px;">
             <b>SQL Code:</b> <a href="https://github.com/dsrichard97/chicagosql" target="_blank">Pull Request</a>
         </td>
-    </tr>
-</table>
+        <img src="iowasale.gif">
+      </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <center>
