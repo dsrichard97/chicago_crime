@@ -5,6 +5,18 @@
 </p>
 <body>
 <body style="background-color: #f0f0f0;">
+<p>
+  <img src="https://img.shields.io/badge/SQL%2B-green" title="SQL">
+  <img src="https://img.shields.io/badge/Reports%2B-orange" title="Reports">
+  <img src="https://img.shields.io/github/last-commit/dsrichard97/chicago_crime">
+  <img src="https://img.shields.io/github/repo-size/dsrichard97/chicago_crime">
+
+<p>
+  <h2>Authors</h2>
+  <ul>
+    <li><a href="https://github.com/dsrichard97">@dsrichard97</a></li>
+  </ul>
+</p>
 
 
 <div class="section">
