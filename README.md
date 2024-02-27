@@ -1,4 +1,4 @@
-<h1 align="center">Geospatial Analysis - Chicago Crime</h1>
+<h1 align="center">Geospatial & Cluster Analysis - Chicago Crime</h1>
 <p align="center">
 <p align="center">
   <img src="chic1.jpeg" width="400" height="340" allow="autoplay">
@@ -7,6 +7,7 @@
 <body style="background-color: #f0f0f0;">
 <p>
   <img src="https://img.shields.io/badge/SQL%2B-green" title="SQL">
+  <img src="https://img.shields.io/badge/Cluster%B-blue" title="Cluster">
   <img src="https://img.shields.io/badge/Reports%2B-orange" title="Reports">
     <img src="https://img.shields.io/badge/Tableau%2B-red" title="Tableau">
   <img src="https://img.shields.io/github/last-commit/dsrichard97/chicago_crime">
