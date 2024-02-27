@@ -1,7 +1,7 @@
 <h1 align="center">Geospatial Analysis: Chicago Crime</h1>
 <p align="center">
 <p align="center">
-  <img src="chic1.png" width="200" height="240" allow="autoplay">
+  <img src="chic1.jpeg" width="200" height="240" allow="autoplay">
 </p>
 <body>
 <body style="background-color: #f0f0f0;">
