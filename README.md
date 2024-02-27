@@ -85,64 +85,17 @@ The data contains incidents to their blocks and crimes. This exploration is not 
   <img src="gif1.gif" alt="Snow" style="width:100%;">
   <div class="bottom-left">Quick overview of SQL alias list</div>
 </div>
+<body>
+    <h2>SQL Code Snippet:</h2>
+    <!-- Code block for copying -->
+    <pre>
+        SELECT * 
+        FROM `bigquery-public-data.chicago_crime.crime` 
+        WHERE year &gt;= EXTRACT(YEAR FROM CURRENT_DATE()) - 5;
+    </pre>
+    <p>Copy the above SQL code snippet to query data from the last 5 years.</p>
+</body>
 
-<div class="container">
-     <p>
-        <!-- Gets data from the last 5 years -->
-    SELECT * 
-    FROM `bigquery-public-data.chicago_crime.crime` 
-    WHERE year >= EXTRACT(YEAR FROM CURRENT_DATE()) - 5;
-      </p>
-    </li>
-<li>
-  <center>
-    <!-- Gets data from the last 5 years -->
-    SELECT * 
-    FROM `bigquery-public-data.chicago_crime.crime` 
-    WHERE year >= EXTRACT(YEAR FROM CURRENT_DATE()) - 5;
-</div>
-</li>
-
-
-
-
-
-
-
-
-
-<div class="section" id="Usage">
-    <h2>Usage</h2>
-    <p> The usuage is for law enforcement people or people who intrested in crime data. The intention of this project is rather to raise awareness of crimes and hotspots.</p>
-</div>
-
-<div class="section" id="Dataset">
-    <h2>Dataset</h2>
-    <p> This project is designed for use by law enforcement professionals and individuals with an interest in crime data. Its primary objective is to increase awareness of criminal activities and to pinpoint crime hotspots. By providing detailed insights into crime trends and locations, the project aims to support proactive measures and informed decision-making in crime prevention and safety enhancement. This specifically highlights hotspots. For a quick <b>EXCEL</b> snapshot: <a href="https://github.com/dsrichard97/chicago_crime/blob/main/crimedataquery.xls">click here</a>. </p>
-</div>
-
-<div class="section" id="Analysis">
-    <h2>Analysis</h2>
-        <IMG SRC="crime.gif">
-     <div class="container">
-        <h1>Chicago Crime Data Reporting</h1>
-        <p>
-            The report presents an in-depth <span class="highlight">exploratory data analysis (EDA)</span> and a meticulous temporal assessment of crime statistics in Chicago for the years 2022-2023. Conducted using R and various libraries such as <span class="code">readr</span>, <span class="code">lubridate</span>, <span class="code">dplyr</span>, <span class="code">ggplot2</span>, <span class="code">leaflet</span>, <span class="code">leaflet.extras</span>, and <span class="code">cluster</span>, the analysis encompasses data preparation, the identification of predominant crime types via bar plots, and block-level examination to identify areas with increased specific criminal activities.
-        </p>
-        <p>
-            The study further delves into time-related trends in these regions, uncovering significant shifts in crime frequencies. A notable aspect of this analysis is the integration of geospatial and temporal visualizations with interactive maps, enhanced by machine learning techniques like <strong>K-means clustering</strong> to outline <strong>crime hotspots</strong>. This comprehensive methodology not only illuminates areas of concentrated crime and critical zones but also offers essential insights for decision-making by policymakers and law enforcement agencies.
-        </p>
-        <p>
-            Overall, this analysis stands as a potent tool in understanding and addressing the complexities of urban crime.
-        </p>
-        <div class="code">R CODE: https://rpubs.com/diazrichard98/1135536 </div>
-    </div>
-
-
-<div class="section">
-    <h2>Visuals</h2>
-    <img src="tab1.png" alt="Chicago crime">
-    <p>Check out my <b>Tableau dashboard</b>: https://public.tableau.com/shared/2ZZDXFHQX?:display_count=n&:origin=viz_share_link . For a high level overview - click on the PowerPoint below in the resources section. </p>
     
 <div class="section">
         <h2>Resources</h2>
