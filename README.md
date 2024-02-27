@@ -56,7 +56,7 @@ The data contains incidents to their blocks and crimes. This exploration is not 
 <table border="1" style="border-collapse: collapse; width: 100%;">
     <tr>
         <td style="padding: 10px;">
-            <b>SQL Code:</b> <a href="https://github.com/dsrichard97/chicagosql" target="_blank">Pull Request raw code</a>
+            <b>SQL Code:</b> <a href="https://github.com/dsrichard97/chicagosql" target="_blank">Pull Request</a>
         </td>
     </tr>
 </table>
@@ -70,7 +70,9 @@ The data contains incidents to their blocks and crimes. This exploration is not 
 <center>
     
     <!-- Gets data from the last 5 years -->
-    SELECT * FROM `bigquery-public-data.chicago_crime.crime` WHERE year >= EXTRACT(YEAR FROM CURRENT_DATE()) - 5;
+    SELECT * 
+    FROM `bigquery-public-data.chicago_crime.crime` 
+    WHERE year >= EXTRACT(YEAR FROM CURRENT_DATE()) - 5;
 </div>
 
 <div class="section" id="Usage">
