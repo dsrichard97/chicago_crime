@@ -19,18 +19,18 @@
   </ul>
 </p>
 
-<p>
-  <h2>Table of Contents</h2>
-  <ul>
-    <li><a href="#business-problem" target="_parent">Business Problem</a></li>
-    <li><a href="#data-source">Data Source</a></li>
-    <li><a href="#methods">Methods</a></li>
-    <li><a href="#tech-stack">Tech Stack</a></li>
-    <li><a href="#quick-glance">Quick glance at the Results</a></li>
-    <li><a href="#lesson-learned">Lessons learned and Recommendation</a></li>
-    <li><a href="#limitation">Limitation and what can be Improved</a></li>
-  </ul>
-</p>
+<div class="section">
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#Installation">Installation and Setup</a></li>
+        <li><a href="#Usage">Usage</a></li>
+        <li><a href="#Dataset">Dataset</a></li>
+        <li><a href="#Analysis">Analysis</a></li>
+        <li><a href="#Visuals">Visuals</a></li>
+        <li><a href="#Resources">Resources</a></li>
+        <!-- Add other sections as needed -->
+    </ul>
+</div>
 
 
 <P>
@@ -48,20 +48,6 @@ The data contains incidents to their blocks and crimes. This exploration is not 
   </section>
 </P>
 
-
-
-<div class="section">
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#Installation">Installation and Setup</a></li>
-        <li><a href="#Usage">Usage</a></li>
-        <li><a href="#Dataset">Dataset</a></li>
-        <li><a href="#Analysis">Analysis</a></li>
-        <li><a href="#Visuals">Visuals</a></li>
-        <li><a href="#Resources">Resources</a></li>
-        <!-- Add other sections as needed -->
-    </ul>
-</div>
 
 <div class="section" id="Installation">
     <h2>Installation and Setup</h2>
