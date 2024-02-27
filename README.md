@@ -104,7 +104,7 @@ The data contains incidents to their blocks and crimes. This exploration is not 
   Click on image to link
   </p>
     <a href="https://www.example.com" target="_blank">
-        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/crime.gif" alt="Descriptive Text" style="width: 100px; height: auto;">
+        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/crime.gif" alt="Descriptive Text" style="width: auto; height: auto;">
     </a>
 </body>
 
@@ -114,7 +114,7 @@ The data contains incidents to their blocks and crimes. This exploration is not 
     Click on image to link
   </p>
 <a href="https://www.example.com" target="_blank">
-        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/pyplot.png" alt="Descriptive Text" style="width: 100px; height: auto;">
+        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/pyplot.png" alt="Descriptive Text" style="width: auto; height: auto;">
     </a>
 </body>
 
@@ -125,7 +125,7 @@ The data contains incidents to their blocks and crimes. This exploration is not 
     Click on image to link
   </p>
   <a href="https://www.example.com" target="_blank">
-        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/tab1.png" alt="Descriptive Text" style="width: 100px; height: auto;">
+        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/tab1.png" alt="Descriptive Text" style="width: auto; height: auto;">
     </a>
 </body>
 
