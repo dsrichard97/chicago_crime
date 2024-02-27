@@ -114,11 +114,6 @@ The data contains incidents to their blocks and crimes. This exploration is not 
 </body>
 
 
-<body>
-    <h2>R Code:</h2>
-  
-</body>
-
 
 
 
