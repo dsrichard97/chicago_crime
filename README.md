@@ -1,4 +1,8 @@
-<img src="chic1.jpeg" alt="Chicago crime">
+<h1 align="center">Geospatial Analysis: Chicago Crime</h1>
+<p align="center">
+<p align="center">
+  <img src="chic1.png" width="400" height="340" allow="autoplay">
+</p>
 <body>
     <header>
         <h1> Chicago Crime
