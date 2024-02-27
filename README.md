@@ -96,7 +96,36 @@ The data contains incidents to their blocks and crimes. This exploration is not 
     <p>Copy the above SQL code snippet to query data from the last 5 years.</p>
 </body>
 
+<body>
+    <h2>SQL Code Snippet:</h2>
     
+</body>
+
+
+<body>
+    <h2>Excel Data:</h2>
+    
+</body>
+
+
+<body>
+    <h2>Tableau Dashboard:</h2>
+  
+</body>
+
+
+<body>
+    <h2>R Code:</h2>
+  
+</body>
+
+
+
+
+
+
+
+  
 <div class="section">
         <h2>Resources</h2>
         <p>
@@ -106,7 +135,7 @@ The data contains incidents to their blocks and crimes. This exploration is not 
             <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/time/temporal-data.htm">ArcGIS Pro Time Series Data Store Values</a>
         </p>
     </div>
-
 </div>
+
 
 
