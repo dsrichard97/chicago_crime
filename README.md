@@ -83,7 +83,7 @@ The data contains incidents to their blocks and crimes. This exploration is not 
 <center>
     <div class="container">
   <img src="gif1.gif" alt="Snow" style="width:100%;">
-  <div class="bottom-left">Quick overview of SQL alias list</div>
+  <div class="bottom-left">Data Dictionary</div>
 </div>
 <body>
     <h2>SQL Code Snippet:</h2>
