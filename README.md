@@ -78,7 +78,6 @@ The data contains incidents to their blocks and crimes. This exploration is not 
        <td style="padding: 10px;">
             <b>SQL Code:</b> <a href="https://github.com/dsrichard97/chicagosql" target="_blank">Pull Request</a>
         </td>
-        <img src="iowasale.gif">
       </p>
 
 <center>
@@ -92,6 +91,14 @@ The data contains incidents to their blocks and crimes. This exploration is not 
     FROM `bigquery-public-data.chicago_crime.crime` 
     WHERE year >= EXTRACT(YEAR FROM CURRENT_DATE()) - 5;
 </div>
+
+
+
+
+
+
+
+
 
 <div class="section" id="Usage">
     <h2>Usage</h2>
