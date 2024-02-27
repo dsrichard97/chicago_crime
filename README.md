@@ -90,7 +90,6 @@ The data contains incidents to their blocks and crimes. This exploration is not 
         <IMG SRC="crime.gif">
      <div class="container">
         <h1>Chicago Crime Data Reporting</h1>
-        <p>Date: January 5, 2024</p>
         <p>
             The report presents an in-depth <span class="highlight">exploratory data analysis (EDA)</span> and a meticulous temporal assessment of crime statistics in Chicago for the years 2022-2023. Conducted using R and various libraries such as <span class="code">readr</span>, <span class="code">lubridate</span>, <span class="code">dplyr</span>, <span class="code">ggplot2</span>, <span class="code">leaflet</span>, <span class="code">leaflet.extras</span>, and <span class="code">cluster</span>, the analysis encompasses data preparation, the identification of predominant crime types via bar plots, and block-level examination to identify areas with increased specific criminal activities.
         </p>
@@ -100,7 +99,7 @@ The data contains incidents to their blocks and crimes. This exploration is not 
         <p>
             Overall, this analysis stands as a potent tool in understanding and addressing the complexities of urban crime.
         </p>
-        <div class="code">R CODE</div>
+        <div class="code">R CODE: https://rpubs.com/diazrichard98/1135536 </div>
     </div>
 
 
