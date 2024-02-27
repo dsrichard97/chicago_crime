@@ -8,6 +8,7 @@
 <p>
   <img src="https://img.shields.io/badge/SQL%2B-green" title="SQL">
   <img src="https://img.shields.io/badge/Reports%2B-orange" title="Reports">
+    <img src="https://img.shields.io/badge/Tableau%2B-red" title="Tableau">
   <img src="https://img.shields.io/github/last-commit/dsrichard97/chicago_crime">
   <img src="https://img.shields.io/github/repo-size/dsrichard97/chicago_crime">
 
