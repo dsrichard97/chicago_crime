@@ -33,18 +33,21 @@
 </p>
 
 
-<div class="section">
-    <h2>Introduction</h2>
+<P>
+  <section id="business-problem">
+    <h2>Business Problem</h2>
     <p>
-        
-        Dive into the heart of Chicago with a captivating journey through its crime data, spanning from the year 2001 right up to the present, with a slight pause to respect the latest week's confidentiality. This data is provided from Chicago Police Department's innovative CLEAR system (Citizen Law Enforcement Analysis and Reporting).
+      Create an interactive dashboard that visualizes geographic crimes to be able to gather informed decisions for law enforcement.
+    </p>
+    <h2>Crime Information</h2>
+    <p>
+      Crime data spans from 2001 to near present. Data is capture from Chicago Police department knowne as the CLEAR(Citizen Law Enforcement Analysis and Reporting) system.
+The data contains incidents to their blocks and crimes. This exploration is not just about numbers; it's a narrative of resilience and response, painted with the broad strokes of community engagement and the fine lines of detailed analysis. While the Chicago Police Department makes every effort to ensure the reliability of this data, the complexities of crime reporting mean that absolute accuracy and timeliness are aspirational goals.This presentation aims to provide a data-driven narrative on public safety in Chicago. We will delve into this dataset, publicly available under the terms provided by the City of Chicago and offered 'AS IS' by Google, to uncover patterns, understand trends, and offer insights into the complex domain of urban crime and safety." For more information visit: [click here](https://data.cityofchicago.org)
+    </p>
+  </section>
+</P>
 
-Our expedition is guided by a profound respect for the privacy of those affected by crime. With precision, we map incidents to their blocks, preserving anonymity while shedding light on trends that shape the city's safety landscape. However, it's crucial to navigate this data with an understanding of its fluid nature—initial reports and classifications are stepping stones in an ongoing investigative process, revealing a dataset that's as alive and evolving as Chicago itself.
 
-This exploration is not just about numbers; it's a narrative of resilience and response, painted with the broad strokes of community engagement and the fine lines of detailed analysis. While the Chicago Police Department makes every effort to ensure the reliability of this data, the complexities of crime reporting mean that absolute accuracy and timeliness are aspirational goals. Thus, this dataset stands not as a static snapshot, but as a living document, inviting a thoughtful exploration of Chicago's socio-legal fabric without the intent for time-sensitive comparisons.
-
-Join us on this insightful journey, where data not only tells the story of crime but also of a city's ongoing quest for justice and peace. This presentation aims to provide a data-driven narrative on public safety in Chicago. We will delve into this dataset, publicly available under the terms provided by the City of Chicago and offered 'AS IS' by Google, to uncover patterns, understand trends, and offer insights into the complex domain of urban crime and safety." For more information visit: [click here](https://data.cityofchicago.org)    </p>
-</div>
 
 <div class="section">
     <h2>Table of Contents</h2>
