@@ -42,7 +42,8 @@
     <h2>Crime Information</h2>
     <p>
       Crime data spans from 2001 to near present. Data is capture from Chicago Police department knowne as the CLEAR(Citizen Law Enforcement Analysis and Reporting) system.
-The data contains incidents to their blocks and crimes. This exploration is not just about numbers; it's a narrative of resilience and response, painted with the broad strokes of community engagement and the fine lines of detailed analysis. While the Chicago Police Department makes every effort to ensure the reliability of this data, the complexities of crime reporting mean that absolute accuracy and timeliness are aspirational goals.This presentation aims to provide a data-driven narrative on public safety in Chicago. We will delve into this dataset, publicly available under the terms provided by the City of Chicago and offered 'AS IS' by Google, to uncover patterns, understand trends, and offer insights into the complex domain of urban crime and safety." For more information visit: ![Chicago Crime](https://data.cityofchicago.org)
+The data contains incidents to their blocks and crimes. This exploration is not just about numbers; it's a narrative of resilience and response, painted with the broad strokes of community engagement and the fine lines of detailed analysis. While the Chicago Police Department makes every effort to ensure the reliability of this data, the complexities of crime reporting mean that absolute accuracy and timeliness are aspirational goals.This presentation aims to provide a data-driven narrative on public safety in Chicago. We will delve into this dataset, publicly available under the terms provided by the City of Chicago and offered 'AS IS' by Google, to uncover patterns, understand trends, and offer insights into the complex domain of urban crime and safety. For more information visit:
+      <a href="https://data.cityofchicago.org">Chicago Crime</a>
     </p>
   </section>
 </P>
