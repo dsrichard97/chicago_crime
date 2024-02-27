@@ -18,6 +18,19 @@
   </ul>
 </p>
 
+<p>
+  <h2>Table of Contents</h2>
+  <ul>
+    <li><a href="#business-problem" target="_parent">Business Problem</a></li>
+    <li><a href="#data-source">Data Source</a></li>
+    <li><a href="#methods">Methods</a></li>
+    <li><a href="#tech-stack">Tech Stack</a></li>
+    <li><a href="#quick-glance">Quick glance at the Results</a></li>
+    <li><a href="#lesson-learned">Lessons learned and Recommendation</a></li>
+    <li><a href="#limitation">Limitation and what can be Improved</a></li>
+  </ul>
+</p>
+
 
 <div class="section">
     <h2>Introduction</h2>
