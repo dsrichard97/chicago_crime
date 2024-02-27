@@ -87,6 +87,13 @@ The data contains incidents to their blocks and crimes. This exploration is not 
 </div>
 
 <div class="container">
+     <p>
+        <!-- Gets data from the last 5 years -->
+    SELECT * 
+    FROM `bigquery-public-data.chicago_crime.crime` 
+    WHERE year >= EXTRACT(YEAR FROM CURRENT_DATE()) - 5;
+      </p>
+    </li>
 <li>
   <center>
     <!-- Gets data from the last 5 years -->
