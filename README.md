@@ -99,7 +99,6 @@ The data contains incidents to their blocks and crimes. This exploration is not 
 
 <body>
   <h3>R Code</h3>
-    R code:
     
 </body>
 
