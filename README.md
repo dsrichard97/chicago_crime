@@ -81,30 +81,12 @@ The data contains incidents to their blocks and crimes. This exploration is not 
         <img src="iowasale.gif">
       </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <center>
     <div class="container">
   <img src="gif1.gif" alt="Snow" style="width:100%;">
   <div class="bottom-left">Quick overview of SQL alias list</div>
 </div>
 <center>
-    
     <!-- Gets data from the last 5 years -->
     SELECT * 
     FROM `bigquery-public-data.chicago_crime.crime` 
