@@ -100,18 +100,27 @@ The data contains incidents to their blocks and crimes. This exploration is not 
 
 <body>
   <h3>R Code</h3>
-    
+  Click on image to link
+    <a href="https://www.example.com" target="_blank">
+        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/crime.gif" alt="Descriptive Text" style="width: 100px; height: auto;">
+    </a>
 </body>
 
 <body>
     <h3>Python Code</h3>
-
+    Click on image to link
+<a href="https://www.example.com" target="_blank">
+        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/pyplot.png" alt="Descriptive Text" style="width: 100px; height: auto;">
+    </a>
 </body>
 
 
 <body>
     <h3>Tableau Dashboard</h3>
-  
+    Click on image to link
+  <a href="https://www.example.com" target="_blank">
+        <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/tab1.png" alt="Descriptive Text" style="width: 100px; height: auto;">
+    </a>
 </body>
 
 
