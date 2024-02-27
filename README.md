@@ -88,7 +88,20 @@ The data contains incidents to their blocks and crimes. This exploration is not 
 <div class="section" id="Analysis">
     <h2>Analysis</h2>
         <IMG SRC="crime.gif">
-    <p>The report, 'Chicago Crime Data Reporting,' dated January 5, 2024, presents an in-depth exploratory data analysis (EDA) and a meticulous temporal assessment of crime statistics in Chicago for the years 2022-2023. Conducted using R and various libraries such as readr, lubridate, dplyr, ggplot2, leaflet, leaflet.extras, and cluster, the analysis encompasses data preparation, the identification of predominant crime types via bar plots, and block-level examination to identify areas with increased specific criminal activities. The study further delves into time-related trends in these regions, uncovering significant shifts in crime frequencies. A notable aspect of this analysis is the integration of geospatial and temporal visualizations with interactive maps, enhanced by machine learning techniques like <b>K-means clustering</b> to outline <b>crime hotspots</b>. This comprehensive methodology not only illuminates areas of concentrated crime and critical zones but also offers essential insights for decision-making by policymakers and law enforcement agencies. Overall, this analysis stands as a potent tool in understanding and addressing the complexities of urban crime. <b>R CODE - </b> https://rpubs.com/diazrichard98/1135536:display_count=n&:origin=viz_share_link </p>
+     <div class="container">
+        <h1>Chicago Crime Data Reporting</h1>
+        <p>Date: January 5, 2024</p>
+        <p>
+            The report presents an in-depth <span class="highlight">exploratory data analysis (EDA)</span> and a meticulous temporal assessment of crime statistics in Chicago for the years 2022-2023. Conducted using R and various libraries such as <span class="code">readr</span>, <span class="code">lubridate</span>, <span class="code">dplyr</span>, <span class="code">ggplot2</span>, <span class="code">leaflet</span>, <span class="code">leaflet.extras</span>, and <span class="code">cluster</span>, the analysis encompasses data preparation, the identification of predominant crime types via bar plots, and block-level examination to identify areas with increased specific criminal activities.
+        </p>
+        <p>
+            The study further delves into time-related trends in these regions, uncovering significant shifts in crime frequencies. A notable aspect of this analysis is the integration of geospatial and temporal visualizations with interactive maps, enhanced by machine learning techniques like <strong>K-means clustering</strong> to outline <strong>crime hotspots</strong>. This comprehensive methodology not only illuminates areas of concentrated crime and critical zones but also offers essential insights for decision-making by policymakers and law enforcement agencies.
+        </p>
+        <p>
+            Overall, this analysis stands as a potent tool in understanding and addressing the complexities of urban crime.
+        </p>
+        <div class="code">R CODE</div>
+    </div>
 
 
 <div class="section">
