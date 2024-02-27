@@ -96,20 +96,20 @@ The data contains incidents to their blocks and crimes. This exploration is not 
     <p>Copy the above SQL code snippet to query data from the last 5 years.</p>
 </body>
 
+
 <body>
-    <h2>SQL Code Snippet:</h2>
+    R code:
+    
+</body>
+
+<body>
+    Python code:
     
 </body>
 
 
 <body>
-    <h2>Excel Data:</h2>
-    
-</body>
-
-
-<body>
-    <h2>Tableau Dashboard:</h2>
+    Tableau Dashboard:
   
 </body>
 
