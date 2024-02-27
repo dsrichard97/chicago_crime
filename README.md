@@ -103,7 +103,7 @@ The data contains incidents to their blocks and crimes. This exploration is not 
   <p>
   Click on image to link
   </p>
-    <a href="https://www.example.com" target="_blank">
+    <a href="http://rpubs.com/diazrichard98/1135536" target="_blank">
         <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/crime.gif" alt="Descriptive Text" style="width: auto; height: auto;">
     </a>
 </body>
@@ -113,7 +113,7 @@ The data contains incidents to their blocks and crimes. This exploration is not 
   <p>
     Click on image to link
   </p>
-<a href="https://www.example.com" target="_blank">
+<a href="https://github.com/dsrichard97/chicago_crime/blob/main/crime%20data/crime%20data.md" target="_blank">
         <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/pyplot.png" alt="Descriptive Text" style="width: auto; height: auto;">
     </a>
 </body>
@@ -124,7 +124,7 @@ The data contains incidents to their blocks and crimes. This exploration is not 
   <p>
     Click on image to link
   </p>
-  <a href="https://www.example.com" target="_blank">
+  <a href="https://public.tableau.com/views/CRIMEDATA_17044875678690/MAINDB?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" target="_blank">
         <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/tab1.png" alt="Descriptive Text" style="width: auto; height: auto;">
     </a>
 </body>
