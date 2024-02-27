@@ -85,6 +85,8 @@ The data contains incidents to their blocks and crimes. This exploration is not 
   <img src="gif1.gif" alt="Snow" style="width:100%;">
   <div class="bottom-left">Quick overview of SQL alias list</div>
 </div>
+
+<div class="container">
 <center>
     <!-- Gets data from the last 5 years -->
     SELECT * 
