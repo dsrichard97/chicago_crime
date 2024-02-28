@@ -129,6 +129,23 @@ The data contains incidents to their blocks and crimes. This exploration is not 
     </a>
 </body>
 
+<b>Visualizations Database: The goal is to craft compelling narratives for stakeholders. </b>
+          <li>
+          </li>
+        </ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
