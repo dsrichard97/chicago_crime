@@ -40,7 +40,7 @@
   <section id="business-problem">
     <h2>Business Problem</h2>
     <p>
-      Create an interactive dashboard that visualizes geographic crimes to be able to gather informed decisions for law enforcement.
+      Create reports that visualizes geographic crimes to be able to gather informed decisions for law enforcement.
     </p>
     <h2>Crime Information</h2>
     <p>
@@ -129,8 +129,8 @@ The data contains incidents to their blocks and crimes. This exploration is not 
     </a>
 </body>
 
-<b>Visualizations Database: The goal is to craft compelling narratives for stakeholders. </b>
-          <li>
+<b>Visualizations: The goal is to craft compelling narratives for stakeholders. </b>
+          <li> The R code displays at the micro level crimes that are in dark. The furhter you soom into the maping you can notice the specific crim location. From a graphical perspective, the map is usefful for identifying specific hotzones and targeted neighboorhoods. The r code uses a geospatial technique to be able to pin point specific mappings. The report was assembled to illustrate 2022-2023 crimes and look for the top 5 crimes. The top 5 crimes committed were deceptive practice, battery, other offense, narcotics, and robbery in the Chicago. In addition, the report provides patterns where crimes were committed by targetting specific streets. In the python report, we noticed again that deceptive practive was the most leading crime in Chicago. Deceptive crime are similar to fraudalant crimes or cyber crimes comitted. However, in the python report we created a K-means clusters technique to be able to pinpoint on a macro level where most crimes occured. The clustering rather provides where similar crimes are committed.
           </li>
         </ul>
 <p>
