@@ -144,11 +144,19 @@ My analysis of Chicago's 2022-2023 crime data spotlighted the top five crimes, s
 <p>
 
 
+<p>
+  <section id="lesson-learned">
+  <h2>Lessons Learned and Recommendation</h2>
+  <p>
+   
+  </p>
 
 
 
-
-
+<P>
+  <section id="limitation">
+    <h2>Limitation and what can be Improved</h2>
+    <p>
 
 
 
