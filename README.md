@@ -117,11 +117,11 @@ The data contains incidents to their blocks and crimes. This exploration is not 
         <img src="https://raw.githubusercontent.com/dsrichard97/chicago_crime/main/pyplot.png" alt="Descriptive Text" style="width: auto; height: auto;">
     </a>
   <ul>
-<li> Cluster 0: This is one group or 'cluster' of crime incidents as identified by the K-means algorithm. All points in this cluster are more similar to each other (in terms of their geographical location - latitude and longitude) than they are to points in other clusters. <\li>
+<li> Cluster 0: This is one group or 'cluster' of crime incidents as identified by the K-means algorithm. All points in this cluster are more similar to each other (in terms of their geographical location - latitude and longitude) than they are to points in other clusters.
   
-<li> Cluster 1: This represents a different group of crime incidents, again grouped based on their proximity to each other. <\li>
+<li> Cluster 1: This represents a different group of crime incidents, again grouped based on their proximity to each other.
   
-<li> Clusters 2, 3, and 4: Similarly, these labels represent additional groups of crime incidents. <\li>
+<li> Clusters 2, 3, and 4: Similarly, these labels represent additional groups of crime incidents.
 </ul>
 
 The goal of this clustering is to identify 'hotspots' of crime in Chicago based on geographical data. Each cluster represents a geographical area where crimes have occurred with higher density compared to other areas. By examining these clusters, you can gain insights into which areas require more attention or resources for crime prevention and law enforcement.
