@@ -181,7 +181,6 @@ Moreover, dealing with real-world data is inherently more complex, requiring ini
             <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/time/temporal-data.htm">ArcGIS Pro Time Series Data Store Values</a>
         </p>
     </div>
-</div>
 
 
 
